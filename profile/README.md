@@ -2,44 +2,44 @@
   <img src="https://raw.githubusercontent.com/navalis-studio/.github/main/profile/navalis_logo.png" alt="Navalis" width="200"/>
 </p>
 
-<h3 align="center">Batalha Naval Online — Estratégia em Tempo Real</h3>
+<h3 align="center">Online Battleship — Real-Time Strategy</h3>
 
 <p align="center">
-  <em>Um clássico reinventado com estética noir dos anos 30, duelos em tempo real e ranking competitivo.</em>
+  <em>A classic reimagined with 1930s noir aesthetics, real-time duels and competitive ranking.</em>
 </p>
 
 <p align="center">
-  <a href="https://navalis.vercel.app">🎮 Jogar Agora</a> •
+  <a href="https://navalis.vercel.app">🎮 Play Now</a> •
   <a href="https://github.com/navalis-studio/navalis-api">⚙️ Backend</a> •
   <a href="https://github.com/navalis-studio/navalis-web">🎨 Frontend</a>
 </p>
 
 ---
 
-## O Projeto
+## The Project
 
-**Navalis** é um jogo de batalha naval multiplayer onde dois jogadores se enfrentam em tempo real, posicionando frotas e disparando tiros em turnos alternados. Quem afundar toda a frota inimiga primeiro vence.
+**Navalis** is a multiplayer battleship game where two players face off in real time, positioning fleets and firing shots in alternating turns. Sink the entire enemy fleet first to win.
 
-O diferencial está na experiência: uma interface inspirada nas animações Rubber Hose dos anos 1930 com estética Film Noir, efeitos de película antiga, mascotes animados e transições cinematográficas — tudo isso rodando em uma arquitetura moderna com WebSocket para comunicação instantânea.
+What sets it apart is the experience: an interface inspired by 1930s Rubber Hose cartoons with a Film Noir aesthetic, vintage film effects, animated mascots and cinematic transitions — all running on a modern architecture with WebSocket for instant communication.
 
-## Como Funciona
+## How It Works
 
 ```
 ┌─────────────┐     ┌─────────────────┐     ┌──────────────┐     ┌─────────────┐
-│  Criar Sala │ ──▶ │ Posicionar Frota │ ──▶ │  Batalha!    │ ──▶ │  Resultado  │
-│  ou Entrar  │     │   (5 navios)     │     │ (turnos 20s) │     │  + Ranking  │
+│ Create Room │ ──▶ │  Place Fleet    │ ──▶ │   Battle!    │ ──▶ │   Result    │
+│  or Join    │     │  (5 ships)      │     │ (20s turns)  │     │  + Ranking  │
 └─────────────┘     └─────────────────┘     └──────────────┘     └─────────────┘
 ```
 
-| Recurso | Descrição |
-|---------|-----------|
-| ⏱️ Turnos cronometrados | 20 segundos por jogada — hesitou, o sistema atira por você |
-| 🔗 Salas por código | Compartilhe um código de 6 caracteres para jogar com amigos |
-| 🏆 Ranking global | Top 20 jogadores por vitórias, com taxa de win/loss |
-| 🔄 Reconexão | Caiu? Você tem 30 segundos para voltar sem perder a partida |
-| 🎬 Estética cinematográfica | Grain de película, transições iris wipe, mascotes animados |
+| Feature | Description |
+|---------|-------------|
+| ⏱️ Timed turns | 20 seconds per move — hesitate and the system fires for you |
+| 🔗 Room codes | Share a 6-character code to play with friends |
+| 🏆 Global ranking | Top 20 players by wins, with win/loss rate |
+| 🔄 Reconnection | Dropped? You have 30 seconds to rejoin without losing the match |
+| 🎬 Cinematic aesthetic | Film grain, iris wipe transitions, animated mascots |
 
-## Arquitetura
+## Architecture
 
 ```
                     ┌──────────────────────┐
@@ -94,25 +94,25 @@ O diferencial está na experiência: uma interface inspirada nas animações Rub
   </tr>
 </table>
 
-## Repositórios
+## Repositories
 
-| Repo | Descrição |
-|------|-----------|
-| [`navalis-api`](https://github.com/navalis-studio/navalis-api) | API REST + WebSocket STOMP, domain model DDD, autenticação JWT, testes unitários |
-| [`navalis-web`](https://github.com/navalis-studio/navalis-web) | Interface do jogador, sistema de áudio, animações, reconexão automática |
+| Repo | Description |
+|------|-------------|
+| [`navalis-api`](https://github.com/navalis-studio/navalis-api) | REST API + WebSocket STOMP, DDD domain model, JWT auth, unit tests |
+| [`navalis-web`](https://github.com/navalis-studio/navalis-web) | Player interface, audio system, animations, auto-reconnection |
 
 ## Design: Ink & Iron Noir
 
-O visual do Navalis é uma fusão de três referências:
+Navalis' visual identity is a fusion of three references:
 
-- **Rubber Hose (1930s)** — formas arredondadas, animações squash & stretch, mascotes com luva Mickey
-- **Film Noir** — monocromia estrita, grão de película, vinheta, sombras duras
-- **Brutalismo** — bordas grossas, hard shadows, tipografia bold
+- **Rubber Hose (1930s)** — rounded shapes, squash & stretch animations, Mickey glove mascots
+- **Film Noir** — strict monochrome, film grain, vignette, hard shadows
+- **Brutalism** — thick borders, hard shadows, bold typography
 
-> Paleta: `#131313` · `#000000` · `#FFFFFF` · `#C2C2C2` · `#6E6E6E`
+> Palette: `#131313` · `#000000` · `#FFFFFF` · `#C2C2C2` · `#6E6E6E`
 
 ---
 
 <p align="center">
-  <strong>Navalis Studio</strong> · Desenvolvido por <a href="https://github.com/jhowzluk">@jhowzluk</a>
+  <strong>Navalis Studio</strong> · Built by <a href="https://github.com/jhowzluk">@jhowzluk</a>
 </p>
