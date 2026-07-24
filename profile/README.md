@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://navalis.vercel.app">🎮 Play Now</a> •
-  <a href="https://github.com/navalis-studio/navalis-api">⚙️ Backend</a> •
-  <a href="https://github.com/navalis-studio/navalis-web">🎨 Frontend</a>
+  <a href="https://navalis.vercel.app">Play Now</a> •
+  <a href="https://github.com/navalis-studio/navalis-api">Backend</a> •
+  <a href="https://github.com/navalis-studio/navalis-web">Frontend</a>
 </p>
 
 ---
