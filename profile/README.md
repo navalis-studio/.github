@@ -57,7 +57,7 @@ What sets it apart is the experience: an interface inspired by 1930s Rubber Hose
                     └──────────┬───────────┘
                                │
                     ┌──────────▼───────────┐
-                    │    PostgreSQL 16     │
+                    │     PostgreSQL       │
                     │  (users + results)   │
                     └─────────────────────┘
 ```
@@ -68,7 +68,7 @@ What sets it apart is the experience: an interface inspired by 1930s Rubber Hose
     <td>
       <img src="https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white" alt="Java 21"/>
       <img src="https://img.shields.io/badge/Spring%20Boot-4.0-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot"/>
-      <img src="https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL"/>
       <img src="https://img.shields.io/badge/WebSocket-STOMP-010101?logo=websocket&logoColor=white" alt="WebSocket"/>
       <img src="https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens&logoColor=white" alt="JWT"/>
       <img src="https://img.shields.io/badge/Flyway-Migrations-CC0200?logo=flyway&logoColor=white" alt="Flyway"/>
@@ -87,7 +87,8 @@ What sets it apart is the experience: an interface inspired by 1930s Rubber Hose
     <td><strong>Infra</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Vercel-Frontend-000000?logo=vercel&logoColor=white" alt="Vercel"/>
-      <img src="https://img.shields.io/badge/Render-Backend-46E3B7?logo=render&logoColor=white" alt="Render"/>
+      <img src="https://img.shields.io/badge/Render-Backend-4351E8?logo=render&logoColor=white" alt="Render"/>
+      <img src="https://img.shields.io/badge/Neon-Database-00E699?logo=postgresql&logoColor=white" alt="Neon"/>
       <img src="https://img.shields.io/badge/Docker-Container-2496ED?logo=docker&logoColor=white" alt="Docker"/>
       <img src="https://img.shields.io/badge/GitHub%20Actions-CI-2088FF?logo=githubactions&logoColor=white" alt="CI"/>
     </td>
